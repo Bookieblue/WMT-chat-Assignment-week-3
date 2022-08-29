@@ -14,6 +14,11 @@
         android:theme="@style/Theme.WMTChat"
         tools:targetApi="31">
         <activity
+            android:name=".NewGroupActivity"
+            android:exported="false"
+            android:label="New Group"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

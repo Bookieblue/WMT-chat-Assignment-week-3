@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Antoni/AndroidStudioProjects/WMTChat/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/Antoni/AndroidStudioProjects/WMTChat/app/src/main/res/layout/activity_new_group.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/Antoni/AndroidStudioProjects/WMTChat/app/src/main/res/layout/list_of_friends_layout.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/Antoni/AndroidStudioProjects/WMTChat/app/src/main/res/menu/main_menu.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/Antoni/AndroidStudioProjects/WMTChat/app/src/main/res/menu/menu_main.xml" value="0.225" />
       </map>
     </option>
   </component>
