@@ -7,6 +7,5 @@ class SampleData {
         User("Miracle Ebere", "Programming vibes"),
         User("Fadwa Fuad", "I love coding"),
         User("Ruth Okeniyi", "Hey i am using whatsapp"),
-
     )
 }
