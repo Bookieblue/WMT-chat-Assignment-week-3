@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
+import com.tech4dev.wmtchat.adapter.MainPageAdapter
 
 class MainActivity : AppCompatActivity() {
     private lateinit var tabLayout: TabLayout
@@ -31,6 +32,8 @@ class MainActivity : AppCompatActivity() {
                 3 -> tab.text ="Calls"
             }
         }.attach()
+
+        viewPager.currentItem = 1
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
