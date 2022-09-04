@@ -52,8 +52,10 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.new_broadcast ->{
-                Toast.makeText(this, "New Broadcast click", Toast.LENGTH_LONG).show()
+                goToEmptyActivity()
+                //Toast.makeText(this, "New Broadcast click", Toast.LENGTH_LONG).show()
                 return true
+
             }
             R.id.linked_devices -> {
                 Toast.makeText(this, "Linked Devices click", Toast.LENGTH_LONG).show()
@@ -72,5 +74,9 @@ class MainActivity : AppCompatActivity() {
     private fun goToNewGroupActivity(){
         val i = Intent(this, NewGroupActivity::class.java)
         startActivity(i)
+    }
+    private fun goToEmptyActivity(){
+        val intent = Intent(this, BroadcastMenuActivity::class.java)
+        startActivity(intent)
     }
 }
